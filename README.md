@@ -6,7 +6,7 @@ Tecnologias utilizadas foram NodeJS (Backend), ReactJS (Frontend), React Native 
 
 - **Passo a passo para execução da aplicação via terminal:**
 
-Start backend -> `./backend/yarn dev`
+Start backend -> `yarn dev`
 
 **Dependências do nodeJS:**</br>
 
