@@ -11,9 +11,7 @@ const server = require('http').Server(app);
 // Permitir acesso via websocket
 const io = require('socket.io')(server);
 
-mongoose.connect(process.env.DB_CONNECTION,{
-    useNewUrlParser: true,
-});
+mongoose.connect(process.env.DB_CONNECTION);
 
 //Midleware para qe todos possam usar o io
 app.use((req, res, next) => {
